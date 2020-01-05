@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="172ddbbd-2c9c-40ae-8c0f-d846a5abbd17" name="Default Changelist" comment="" />
+    <list default="true" id="172ddbbd-2c9c-40ae-8c0f-d846a5abbd17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/advent2019/day_2.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,15 +21,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1UzSJ4JjYtA6PmFwKBalvl7HJTG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="cursive.last.file.extension./Users/benpalin/code/advent2019/src" value="clj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1576360940472">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1578187091695">{:repl-history {:ide [], :local [{:command &quot;(+)&quot;, :offset 3, :ns &quot;advent2019.core&quot;} {:command &quot;(solution-1-of-2)&quot;, :offset 17, :ns &quot;advent2019.core&quot;} {:command &quot;input&quot;, :offset 5, :ns &quot;advent2019.core&quot;} {:command &quot;solution-1-of-2&quot;, :offset 15, :ns &quot;advent2019.core&quot;} {:command &quot;(take 3 (fuel-for-fuel 3256794))&quot;, :offset 32, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(take 100 (fuel-for-fuel 3256794))&quot;, :offset 10, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(take-while #(&gt; % 0) (fuel-for-fuel 3256794))&quot;, :offset 21, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(fuel-for-fuel input)&quot;, :offset 21, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(fuel-for-fuel 1969)&quot;, :offset 19, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(take-while #(&gt; % 0)\n          (iterate calculate-fuel 1969))&quot;, :offset 61, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(take-while #(&gt; % 0)\n          (iterate calculate-fuel 100756))&quot;, :offset 63, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(take-while #(&gt; % 0)\n          (iterate calculate-fuel 3256794))&quot;, :offset 64, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;solution-2-of-2&quot;, :offset 10, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(+ 0 solution-2-of-2)&quot;, :offset 21, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(fuel-for-fuel solution-1-of-2)&quot;, :offset 31, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(drop [1 2 3])&quot;, :offset 14, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(drop 1 [1 2 3])&quot;, :offset 8, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;(solution-2-or-2)&quot;, :offset 16, :ns &quot;advent2019.day-1-part-1&quot;} {:command &quot;solution-2-or-2&quot;, :offset 15, :ns &quot;advent2019.day-1-part-1&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -82,5 +89,18 @@
       <updated>1576357855568</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
